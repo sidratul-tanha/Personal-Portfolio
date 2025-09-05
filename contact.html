@@ -4,26 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/2ndportfolio.css">
 </head>
 <body>
-    <h1>This is my Website</h1>
-    <h3> Contact Me Via:</h3>
-    <form>
-        <input type="number"placeholder ="Enter Your Mail">
-    <br>
-        <input type="text" placeholder="Enter Your Name">
-    </br>
-        <input type="password" placeholder="Enter password">
-
-    <br>
-        <button> Submit</button>
-    </br>
-    
-    </form>
-    <div>
-        <a href="index.html">Home</a>
-    </div>
+   <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Your ideas, my code — let’s make it happen</h3>
+            <p>
+              I'm available for frontend projects and full-time opportunities. Excited to collaborate on remote jobs and create amazing digital experiences together.
+            </p>
+            <div class="contact-methods">
+              <div class="contact-method">
+                <span class="contact-icon">📩</span>
+                <span>sidratultanha@mail.com</span>
+              </div>
+              <div class="contact-method">
+                <span class="contact-icon">📞</span>
+                <span>+880 1232432676</span>
+              </div>
+              <div class="contact-method">
+                <span class="contact-icon">🌍</span>
+                <span>Cumilla, Bangladesh</span>
+              </div>
+              <div class="contact-method">
+                <span class="contact-icon">📝</span>
+                <span>Open to remote work</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form class="form" action="#" method="POST">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell me about your project..."
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     
 </body>
-<footer>@Tanha2003</footer>
+<footer class="footer">
+      <div class="logo"></div>
+  <h2 class="nav-color1">Sidratul<span class="nav-color">Tanha</span></h2><nav class="footer-nav">
+    <a href="index.html">Home</a>
+    <a href="index.html">About</a>
+    <a href="skills.html">How it Works</a>
+    <a href="contact.html">Services</a>
+  </nav></footer>
 </html>
