@@ -241,6 +241,9 @@ padding: 20px;
   margin: 20px;
   padding: 20px 20px;
 }
+.description {
+  text-align: center;
+}
  .footer {
 
   background-color:#e8f7fd;
